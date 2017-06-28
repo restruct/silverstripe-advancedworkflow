@@ -1,6 +1,6 @@
 {
-	"name": "silverstripe/advancedworkflow",
-	"description": "Adds configurable workflow support to the CMS, with a GUI for creating custom workflow definitions.",
+	"name": "restruct/silverstripe-advancedworkflow",
+	"description": "Advancedworkflow without the CMS dependency & some tweaks ",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "advancedworkflow", "workflow"],
 	"license": "BSD-3-Clause",
@@ -16,12 +16,6 @@
 	],
 	"require":
 	{
-        "silverstripe/cms": "^4",
         "silverstripe/framework": "^4"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "4.0.x-dev"
-		}
 	}
 }
